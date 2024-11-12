@@ -10,7 +10,9 @@ body {
 
 header h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+    margin: 10px;
+    color: #EAE1DF;
 }
 
 table {
@@ -49,7 +51,10 @@ button {
 #div_game {
     background-color: #EAE1DF;
     margin: auto;
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     width: 800px;
     height: 800px;
 }
@@ -91,11 +96,12 @@ footer {
     margin-bottom: 0;
     padding: 0;
     bottom: 0;
+    display: flex;
+    align-items: center;
 }
 
 footer p {
     text-align: center;
-
 }
 
 #div_information {
@@ -125,5 +131,4 @@ footer p {
     background-color: #EC7063;
     color: #7B241C;
     border: 1px #7B241C solid;
-
 }
