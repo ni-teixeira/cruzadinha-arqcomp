@@ -12,13 +12,13 @@ header h1 {
     text-align: center;
     font-size: 50px;
     margin: 10px;
-    color: #EAE1DF;
+    color: #667761;
 }
 
 table {
     border: 1px #EAE1DF solid;
     font-size: 25px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
     margin: auto;
 }
 
@@ -78,10 +78,11 @@ button {
 #input_answer {
     width: 100px;
     margin: auto;
+    border-radius: 5px;
 }
 
 .deadCell {
-    background-color: #EAE1DF;
+    background-color: #e5b8b5;
 }
 
 .availableCell {
